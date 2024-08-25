@@ -1,0 +1,39 @@
+name: shop_application
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  smooth_page_indicator: ^1.2.0+3
+  hexcolor: ^3.0.1
+  dio: ^5.6.0
+  shared_preferences: ^2.3.2
+  salomon_bottom_bar: ^3.3.2
+  carousel_slider: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/onBoarding_images/
+    - assets/images/logos/
+    - assets/images/auth/
